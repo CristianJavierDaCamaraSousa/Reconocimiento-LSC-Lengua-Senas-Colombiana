@@ -12,6 +12,19 @@ Este sistema se compone de dos partes:
 
 El proyecto tiene por objetivo ser un aplicativo totalmente funcional y utilizable en casos cotidianos de interacción con comunidades que hagan uso de LSC, pero el proyecto al ser un entregable de trabajo de tesis universitaria se encuentra en **estado alpha** y para lograr el obetivo de sistema productivo estable se requiere la [contribución](#contribuciones) de parte de la comunidad de desarrolladores para la implementación de nuevas funcionalidades y la corrección de errores, usando estandares de calidad y buenas prácticas de desarrollo. [Más Información](#contribuciones).
 
+# Colombian Sign Language (LSC) Recognition
+
+Colombian Sign Language (LSC) recognition system based on the deep learning model of neural networks for the detection and classification of gestures or signs of the hearing impaired communities.
+
+This system is composed of two parts:
+
+1. backend: it is responsible for the detection and classification of gestures or signs of the hearing impaired communities and for managing the user interaction with the technical concepts such as models, model training, new sign registration, versioning, and sign prediction. 
+   
+   This is orchestrated with the Python framework [FastAPI](https://fastapi.tiangolo.com/) for the creation of a RESTful API; and with the NoSQL database ([TinyDB](https://tinydb.readthedocs.io/en/latest/)), and the storage folders for models and signs.
+
+2. Frontend: it is in charge of the interaction of the non-technical user with the system, either to translate signs to text and/or voice, or to register new signs in the system. This is orchestrated with the [Angular] framework (https://angular.io/) for the creation of a web application.
+
+The project aims to be a fully functional and usable application in everyday cases of interaction with communities that make use of LSC, but the project being a deliverable of university thesis work is in **alpha state** and to achieve the goal of stable productive system requires the [contribution](#contributions) of the developer community for the implementation of new features and bug fixes, using quality standards and good development practices. [More Information](#contributions).
 ---
 
 # Tabla de contenidos
